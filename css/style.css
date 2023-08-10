@@ -1,1 +1,42 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: hotpink;
+}
+
+.nav-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-brand img {
+  width: 90px;
+  height: 70px;
+  margin: 0rem 4rem;
+}
+
+.nav-brand h3 {
+  font-size: 2rem;
+  color: #fd1956;
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */
